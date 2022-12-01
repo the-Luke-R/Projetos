@@ -1,3 +1,5 @@
+# organiza uma lista de números em ordem crescente
+
 a = [3,1,2,10,1]
 b = []
 

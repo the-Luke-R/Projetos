@@ -13,4 +13,3 @@ for x in range(2, 10000000):
             while z % x == 0:
                 z = z / x
                 print(x)
-    

@@ -1,3 +1,5 @@
+# simple converter, using a tkinter interface
+
 import tkinter as tk
 from tkinter import messagebox
 

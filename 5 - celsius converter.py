@@ -36,6 +36,7 @@ master = tk.Tk()
 
 master.title("temperature converter")
 master.maxsize(400, 100)
+master.eval("tk::PlaceWindow . center")
 
 tk.Label(master, text="Type the desired temperature in the 'Celsius' field").grid(row=0, column=0, columnspan="3")
 tk.Label(master, text="Celsius", fg="red").grid(row=1, column=0)

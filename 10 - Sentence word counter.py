@@ -1,4 +1,6 @@
-sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
+# returns the sentence with most words
+
+sentences = ["Man of Few Words", "semper fi", "Right Out of the Gate"]
 words = []
 for i in sentences:
     words.append(i.count(" ") + 1)
